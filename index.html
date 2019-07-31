@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body { background-color: #eaeaea; }
+        .page-1 { height: 650px; background: url(https://pix10.agoda.net/hotelImages/115/1157073/1157073_16062412150044053329.jpg?s=1024x768); background-repeat: no-repeat; background-size: cover; background-position: center; position: relative; text-align: center; color: #fff; z-index: 0; }
+
+
+        .page-1 .content { margin-top: 225px; }
+        .page-1 .content .header { font-size: 65px; font-weight: 500; line-height: 75px; }
+        .page-1 .content .info { font-size: 28px; font-weight: 400; line-height: 40px; }
+        @media (max-width: 576px) {
+            .page-1 .content .header { font-size: 50px; font-weight: 500; line-height: 75px; }
+            .page-1 .content .info { font-size: 18px; font-weight: 400; line-height: 40px; }
+        }
+
+        .page-2 { padding: 35px 0; }
+        .page-3 { padding: 35px 0; background-color: #2c3e50; }
+        .page-4 { padding: 35px 0; }
+        .page-5 { padding: 35px 0; background-color: #2c3e50; }
+        .page-6 { padding: 35px 0; background-color: #dfdfdf; }
+        .page-6 .card-img { position: relative; }
+        .page-6 .card-img .overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; cursor: pointer; background-color: rgba(0, 0, 0, .3); }
+        .page-6 .card-img .overlay .btn { position: absolute; top: 5px; right: 5px; }
+        .page-6 .col-12 { margin-bottom: 10px; }
+        .page-7 { padding: 35px 0; background-color: #e91e63; }
+        .page-8 { padding: 35px 0; }
+        .page-8 i { margin-bottom: 10px; }
+        .footer { padding: 25px 0; background-color: #2c3e50; }
+
+
+        .navbar.bg-light { border-bottom: 3px solid rgba(232, 67, 147, .5); }
+        .navbar .nav-item:hover { color: #e91e63 !important ; transition: .3s }
+        .text-pink { color: #e91e63 !important; }
+        .overlay { content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, .7); }
+        .underline { position: relative; }
+        .underline:after { display: block; width: 100px; height: 3px; background: #919bac; content: ""; margin: 13px auto 20px; }
+        .bg-light { transition: .3s; }
+        .navbar-dark { transition: .3s; }
+
+        button { position: relative; }
+        .btn-unik:before { content: ''; position: absolute; width: 100%; height: 100%; top: 5px; left: 5px; border: 5px solid rgba(255, 255, 255, .7); border-left: none; border-top: none; }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand font-weight-bold text-pink">MyHotel</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link mr-3" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link mr-3" href="#">Hotel</a>
+                    <a class="nav-item nav-link mr-3" href="#">About</a>
+                    <a class="nav-item nav-link mr-3" href="#">Support Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-1">
+        <div class="overlay">
+            <div class="container">
+                <div class="content">
+                    <div class="header text-pink">MyHotel</div>
+                    <div class="info mt-3">Tempat untuk mencari hotel dengan mudah dan cepat.</div>
+                    <div class="mt-3">
+                        <!-- <button class="btn rounded-0 btn-outline-light">Hey</button> -->
+                        <button class="btn rounded-0 btn-outline-light">LIHAT HOTEL &rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-2">
+        <div class="container text-center">
+            <h3 class="underline">Selamat Datang</h3>
+            <p>MyHotel merupakan sebuah website yang menyediakan berbagai jenis hotel, mulai dari kelas bawah, kelas sedang, maupun kelas atas dari berbagai provinsi di Indonesia.</p>
+        </div>
+    </div>
+    
+    <div class="page-3">
+        <div class="container text-center text-light">
+            <h3 class="underline">Mudah dan Cepat</h3>
+            <p>Mencari berbagai tipe hotel yang anda inginkan dengan mudah dan cepat.</p>
+        </div>
+    </div>
+
+    <div class="page-4">
+        <div class="container text-center">
+            <h3 class="underline">Hotel Terbaik</h3>
+            <div class="row text-left">
+                <div class="col-sm-7 col-12 mb-2">
+                    <img src="https://www.sapo.vn/blog/wp-content/uploads/2016/09/kinh-doanh-khach-san-can-gi-8.jpg" alt="hotel 1" height="300" width="100%">
+                </div>
+                <div class="col-sm-5 col-12">
+                    <h4>Hotel Neptunus</h4>
+                    <p>Bertempat di Jawa Timur, hotel Neptunus merupakan hotel yang sangat digemari oleh para wisatawan yang sedang berkunjung di Pulau Jawa. bertempat di pegunungan, hotel ini menyajikan pemandangan yang sangat indah.</p>
+                </div>
+            </div>
+
+            <div class="row mt-4 text-left flex-column-reverse flex-sm-row">
+                <div class="col-sm-5 col-12">
+                    <h4>Hotel Merkus</h4>
+                    <p>Hotel Merkus merupakan hotel yang sering ditempati oleh wisatawan dalam negeri maupun mancanegara. Bertempat di Bali dan dengan letak yang sangat strategis dengan spot pantai, itulah mengapa alasan hotel ini sangat sering dicari oleh wisatawan.</p>
+                </div>
+                <div class="col-sm-7 col-12 mb-2">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/47/0f/40/hotel-exterior.jpg" width="100%" height="300">
+                </div>
+            </div>
+
+            <div class="row mt-4 text-left">
+                <div class="col-sm-7 col-12 mb-2">
+                    <img src="https://www.hotelsofgreece.com/athens/electra-palace-hotel-pool.jpg" alt="hotel 1" width="100%" height="300">
+                </div>
+                <div class="col-sm-5 col-12">
+                    <h4>Hotel Amphas</h4>
+                    <p>Bertempat di Lombok, hotel Amphas merupakan hotel yang sangat digemari oleh para wisatawan yang sedang berkunjung di Pulau Lombok. bertempat di pegunungan, hotel ini menyajikan pemandangan yang sangat indah.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-5">
+        <div class="container text-center text-light">
+            <h3 class="underline">Cari Hotel</h3>
+            <form action="">
+                <div class="row">
+                    <div class="col-md-6 col-sm-8 col-12 offset-md-3 offset-sm-2">
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option selected>Region</option>
+                                <option>Bali</option>
+                                <option>Bawean</option>
+                                <option>Jawa Barat</option>
+                                <option>Jawa Tengah</option>
+                                <option>Jawa Timur</option>
+                                <option>Lombok</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option selected>Orang - Kamar</option>
+                                <option>1 orang - 1 kamar</option>
+                                <option>2 orang - 1 kamar</option>
+                                <option>2 orang - 2 kamar</option>
+                                <option>Lainnya</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option selected>Durasi</option>
+                                <option>1 malam</option>
+                                <option>2 malam</option>
+                                <option>3 malam</option>
+                                <option>4 malam</option>
+                                <option>5 malam</option>
+                                <option>6 malam</option>
+                                <option>> 6 malam</option>
+                            </select>
+                        </div>
+
+                        <div class="text-right">
+                            <button class="btn btn-outline-light rounded-0">Cari &rarr;</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="page-6">
+        <div class="container">
+            <h3 class="underline text-center">Rekomendasi</h3>
+            <div class="row">
+                <div class="col-sm-4 col-12">
+                    <div class="card">
+                        <div class="card-img" style="background: url(https://s-ec.bstatic.com/images/hotel/max1024x768/468/46871800.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; height: 200px;">
+                            <div class="overlay">
+                                <button class="btn btn-outline-light btn-sm rounded-0">Lihat &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="p-1 text-center">
+                            <h5>Cezar <small class="text-muted">Jakarta</small></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="card">
+                        <div class="card-img" style="background: url(https://ihg.scene7.com/is/image/ihg/holiday-inn-the-colony-4629618286-4x3); background-repeat: no-repeat; background-size: cover; background-position: center; height: 200px;">
+                            <div class="overlay">
+                                <button class="btn btn-outline-light btn-sm rounded-0">Lihat &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="p-1 text-center">
+                            <h5>Holiday Inn <small class="text-muted">Jakarta</small></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="card">
+                        <div class="card-img" style="background: url(https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/02/14/1226/Hyatt-Place-St-George-Convention-Center-P004-Exterior.adapt.16x9.1920.1080.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; height: 200px;">
+                            <div class="overlay">
+                                <button class="btn btn-outline-light btn-sm rounded-0">Lihat &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="p-1 text-center">
+                            <h5>Hyatt <small class="text-muted">Madura</small></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-4 col-12">
+                    <div class="card">
+                        <div class="card-img" style="background: url(https://media-cdn.tripadvisor.com/media/photo-s/09/62/fc/8c/crystal-hotel-hat-yai.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; height: 200px;">
+                            <div class="overlay">
+                                <button class="btn btn-outline-light btn-sm rounded-0">Lihat &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="p-1 text-center">
+                            <h5>Crystal <small class="text-muted">Maluku</small></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="card">
+                        <div class="card-img" style="background: url(http://image.metglobal.com/hotelpictures/TRJVKA/5VS000000.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; height: 200px;">
+                            <div class="overlay">
+                                <button class="btn btn-outline-light btn-sm rounded-0">Lihat &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="p-1 text-center">
+                            <h5>Michell <small class="text-muted">Jawa Timur</small></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="card">
+                        <div class="card-img" style="background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnLI57NmSnTf5fcU381hyJlHD9lPZOmwmt5BouyH-bnGFXWCqk); background-repeat: no-repeat; background-size: cover; background-position: center; height: 200px;">
+                            <div class="overlay">
+                                <button class="btn btn-outline-light btn-sm rounded-0">Lihat &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="p-1 text-center">
+                            <h5>City Express <small class="text-muted">Bali</small></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-7">
+        <div class="container text-center text-light">
+            <h3 class="underline">Subscribe</h3>
+            <form action="">
+                <div class="row">
+                    <div class="col-md-6 col-sm-8 col-12 offset-md-3 offset-sm-2">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email">
+
+                            <button class="btn btn-outline-light rounded-0">SUBS</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="page-8">
+        <div class="container text-center">
+            <h3 class="underline">Ada Pertanyaan?</h3>
+                <i class="fa fa-map-marker"></i> &nbsp;Jl. KH Abdul Karim XXI <br>
+                <i class="fa fa-phone"> &nbsp;+62 880 8989 8123</i> <br>
+                <i class="fa fa-facebook-official"></i> &nbsp;Aguezz Stiawan <br>
+                <i class="fa fa-instagram"></i> &nbsp;@aguezz25 <br>
+                <i class="fa fa-envelope"></i> &nbsp;agus.stiawan2211@gmail.com <br>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-light text-center">
+            <small>
+                &copy; 2018 MyHotel All Right Reserved. Made with &hearts; by <b>Agus Stiawan</b>
+            </small>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            function scrolled(position) {
+                if (position >= 594) {
+                    $('.navbar').addClass('navbar-light bg-light')
+                    $('.navbar').removeClass('navbar-dark')
+                } else {
+                    $('.navbar').addClass('navbar-dark')
+                    $('.navbar').removeClass('navbar-light bg-light')
+                }
+            }
+            $(window).scroll(function() { scrolled($(window).scrollTop()) })
+
+            scrolled($(window).scrollTop())
+        })
+    </script>
+</body>
+</html>
